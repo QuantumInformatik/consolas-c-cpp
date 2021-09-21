@@ -5,7 +5,7 @@
 
 void main()
 {
-
+    printf("HOLA MUNDO");
     short miShort = sizeof(short);
     int cantidadBytes = sizeof(int);
     long miLong = sizeof(long);
