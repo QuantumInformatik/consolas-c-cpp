@@ -14,7 +14,7 @@ int main(){
     scanf("%f", &sueldo);
 
     printf("Departamento al que pertenece? \n");
-    scanf("%c", &departamento);
+    scanf(" %c", &departamento);
 
     return 0;
 }
