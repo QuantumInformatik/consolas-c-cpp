@@ -19,8 +19,6 @@ int main(){
         scanf("%f", &ingresoMensual[i]);
     }
 
-    printf("Sueldo anual?");
-    scanf("%f", &sueldo);
 
     printf("Departamento al que pertenece? \n");
     scanf(" %c", &departamento);
@@ -31,6 +29,13 @@ int main(){
     annioNacimiento = anioActual -edad;
     totalHorasExtraPagar =horasExtrasTrabajadas*PRECIO_HORA_EXTRA;
     haRealizadoHorasExtras = totalHorasExtraPagar;
+
+    for (int i= 0; i < 12; i++)
+    {
+        sueldo = sueldo + ingresoMensual[i];
+    }
+    
+
 
     if(departamento=='A'|| departamento=='a'){
         printf("Entro");
