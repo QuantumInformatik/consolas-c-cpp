@@ -1,18 +1,14 @@
 #include <stdio.h>
 
-//proyecto global
 #define PRECIO_HORA_EXTRA 60
+#define BONIFICACION_DEPARTAMENTO_A 2750
 
 int anioActual =2021;
 
 
 int main(){
-    int edad;
-    int annioNacimiento;
-    int horasExtrasTrabajadas;
-    int haRealizadoHorasExtras;//actua como boolean
-    float sueldo;
-    float totalHorasExtraPagar; 
+    int edad, annioNacimiento, horasExtrasTrabajadas, haRealizadoHorasExtras;//actua como boolean
+    float sueldo, totalHorasExtraPagar; 
     char departamento;
 
     printf("¿Qué edad tiene?: \n");
@@ -30,6 +26,11 @@ int main(){
     annioNacimiento = anioActual -edad;
     totalHorasExtraPagar =horasExtrasTrabajadas*PRECIO_HORA_EXTRA;
     haRealizadoHorasExtras = totalHorasExtraPagar;
+
+    if(departamento=='A'|| departamento=='a'){
+        printf("Entro");
+        sueldo = sueldo + BONIFICACION_DEPARTAMENTO_A;
+    }
 
     return 0;
 }
