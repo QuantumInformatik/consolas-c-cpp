@@ -1,8 +1,9 @@
 # funciones de biblioteca en C
-stdio.h guarda funciones de entrada y salida: stdio = standard input output
-string.h funciones para el manejo de cadenas
-math.h funciones matematicas
-stdlib.h funciones de memoria y utilitares (malloc, free, atoi, etc.)
+
+- stdio.h guarda funciones de entrada y salida: stdio = standard input output
+- string.h funciones para el manejo de cadenas
+- math.h funciones matematicas
+- stdlib.h funciones de memoria y utilitares (malloc, free, atoi, etc.)
 
 
 # funciones definidas por el programador
