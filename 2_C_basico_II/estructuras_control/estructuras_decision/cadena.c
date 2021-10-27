@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    char nombre[] = "Juan"; //esto es correcto
+    char nombre[5];
+    nombre = "Juan"; // esto es incorrecto - más adelante veremos porque
+
     int edad = 33;
     double altura =1.78;
 
