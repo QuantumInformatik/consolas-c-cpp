@@ -4,3 +4,12 @@
 
 1635396831 d:\documentos\candc++projects\programacioncc++\2_c_basico_ii\funciones\funciones\funciones.h
 
+1635397440 source:d:\documentos\candc++projects\programacioncc++\2_c_basico_ii\funciones\funciones\number.c
+	"number.h"
+
+1635397360 d:\documentos\candc++projects\programacioncc++\2_c_basico_ii\funciones\funciones\number.h
+
+1635397930 source:d:\documentos\candc++projects\programacioncc++\2_c_basico_ii\funciones\funciones\principal.c
+	<stdio.h>
+	"number.h"
+
