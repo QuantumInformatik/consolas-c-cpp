@@ -7,6 +7,7 @@
 
 
 # funciones definidas por el programador
+En C existe un concepto ligado a las funciones y es:
 
 ## prototipos de una función
 
