@@ -5,11 +5,23 @@ void recibeArray(char[]);   // recibe un char[]
 void recibePuntero(char *); // recibe un char*
 
 
+/*
+Nos ayuda a movernos por la cadena de una mejor forma, no es un recorte, es un avance de posición.
+*/
+void aritmeticaDirecciones()
+{
+    char a[] = "Esto es una cadena";
+
+    printf("[%s]\n", a);      // imprime: [Esto es una cadena]
+    printf("[%s]\n", a + 5);  // imprime: [es una cadena]
+    printf("[%s]\n", a + 9);  // imprime: [na cadena]
+    printf("[%s]\n", a + 12); // imprime: [cadena]
+
+}
+
 int main()
 {
-    char s[] = "Esta es una cadena";
-    recibeArray(s);   // le paso la cadena s a la funcion recibeArray
-    recibePuntero(s); // le paso la cadena s a la funcion recibePuntero
+    aritmeticaDirecciones();
     return 0;
 }
 
